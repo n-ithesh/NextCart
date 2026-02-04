@@ -13,7 +13,10 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="container navbar-content">
-                <Link to="/" className="navbar-brand">NextCart</Link>
+                <Link to="/" className="navbar-brand" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    {/* <img src="/NextCart_logo.png" alt="Logo" style={{ height: '50px', width: 'auto', objectFit: 'contain' }} /> */}
+                    NextCart
+                </Link>
                 <div className="navbar-links">
                     {!userInfo ? (
                         <>
@@ -23,8 +26,8 @@ const Navbar = () => {
                     ) : (
                         <>
                             {userInfo.role === 'admin' && <Link to="/admin/dashboard" className="nav-link">Dashboard</Link>}
-                            <button onClick={handleLogout} className="btn btn-danger">Logout</button>
                             <span className="user-welcome">Hi, {userInfo.name}</span>
+                             <button onClick={handleLogout} className="btn btn-danger">Logout</button>
                         </>
                     )}
                 </div>
