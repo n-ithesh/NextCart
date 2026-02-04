@@ -343,6 +343,7 @@ input:focus {
   border-radius: var(--border-radius);
   overflow: hidden;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .data-table th,

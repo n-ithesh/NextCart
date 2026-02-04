@@ -13,10 +13,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="container navbar-content">
-                <Link to="/" className="navbar-brand" style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-                    <img src="/NextCart_logo.png" alt="Logo" style={{ height: '80px', width: 'auto' }} />
-                    NextCart
-                </Link>
+                <Link to="/" className="navbar-brand">NextCart</Link>
                 <div className="navbar-links">
                     {!userInfo ? (
                         <>

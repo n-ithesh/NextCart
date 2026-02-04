@@ -62,7 +62,7 @@ const ManageProducts = () => {
                 <input type="text" placeholder="Description" value={formData.description} onChange={(e) => setFormData({ ...formData, description: e.target.value })} required />
                 <input type="number" placeholder="Price" value={formData.price} onChange={(e) => setFormData({ ...formData, price: e.target.value })} required />
                 <input type="text" placeholder="Image URL" value={formData.imageUrl} onChange={(e) => setFormData({ ...formData, imageUrl: e.target.value })} required />
-                <button type="submit" className="btn btn-primary">{editingId ? 'Update' : 'Create'} Product</button>
+                <button type="submit" className="btn btn-primary">{editingId ? 'Update' : 'Upload'} Product</button>
             </form>
 
             <div className="product-list-admin">

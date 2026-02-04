@@ -86,7 +86,7 @@ const ManageUsers = () => {
                             <td>{user.role}</td>
                             <td>{new Date(user.createdAt).toLocaleDateString()}</td>
                             <td>
-                                <button onClick={() => handleEdit(user)} className="btn btn-sm btn-edit">Edit</button>
+                                <button onClick={() => handleEdit(user)} className="btn btn-sm btn-edit" style={{ marginRight: '10px' }}>Edit</button>
                                 <button onClick={() => handleDelete(user._id)} className="btn btn-sm btn-delete">Delete</button>
                             </td>
                         </tr>
