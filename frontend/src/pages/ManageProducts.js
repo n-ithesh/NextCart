@@ -70,7 +70,7 @@ const ManageProducts = () => {
                     <div key={product._id} className="admin-product-item">
                         <img src={product.imageUrl} alt={product.name} width="50" />
                         <span>{product.name}</span>
-                        <span>${product.price}</span>
+                        <span>Rs {product.price}</span>
                         <div className="actions">
                             <button onClick={() => handleEdit(product)} className="btn btn-sm btn-edit">Edit</button>
                             <button onClick={() => handleDelete(product._id)} className="btn btn-sm btn-delete">Delete</button>

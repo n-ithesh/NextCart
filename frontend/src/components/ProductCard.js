@@ -7,7 +7,7 @@ const ProductCard = ({ product }) => {
             <div className="product-info">
                 <h3>{product.name}</h3>
                 <p className="description">{product.description.substring(0, 60)}...</p>
-                <p className="price">${product.price}</p>
+                <p className="price">Rs {product.price}</p>
             </div>
         </div>
     );

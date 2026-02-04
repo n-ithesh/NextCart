@@ -398,7 +398,8 @@ input:focus {
 
 .btn-edit {
   background-color: #eab308;
-  color: white;
+  color: rgb(0, 0, 0);
+  margin-left: 1rem;
 }
 
 .btn-delete {

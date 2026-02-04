@@ -31,7 +31,7 @@ const Hero = () => {
         return (
             <div className="hero">
                 <div className="hero-content">
-                    <h1>Welcome to MiniShop</h1>
+                    <h1>Welcome to NextCart</h1>
                     <p>Discover the best products at unbeatable prices.</p>
                 </div>
             </div>
@@ -44,7 +44,7 @@ const Hero = () => {
             <div className="hero-content slider-content">
                 <h1>{products[currentSlide].name}</h1>
                 <p>{products[currentSlide].description.substring(0, 100)}...</p>
-                <div className="slider-price">${products[currentSlide].price}</div>
+                <div className="slider-price">Rs {products[currentSlide].price}</div>
                 <div className="slider-indicators">
                     {products.map((_, index) => (
                         <span
