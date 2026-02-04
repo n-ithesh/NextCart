@@ -1,4 +1,4 @@
-# Mini E-Commerce Application (MiniShop)
+# Mini E-Commerce Application (NextCart)
 
 A full-stack Mini E-Commerce application built with the MERN stack (MongoDB, Express, React, Node.js). This project is a working proof-of-concept featuring user and admin authentication, product management, and a public-facing storefront.
 
