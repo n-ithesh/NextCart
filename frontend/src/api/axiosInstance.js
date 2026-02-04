@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:5000/api', // baseURL as per requirement
+    baseURL: 'https://nextcart-4grz.onrender.com/api', // baseURL as per requirement
 });
 
 api.interceptors.request.use((config) => {
